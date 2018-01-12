@@ -1,0 +1,93 @@
+body{
+	background:blue;
+	margin:0;
+}
+.titulos{
+	font-size: 20px;
+	text-align: center;
+	font-style:italic;
+	color:white;
+	text-shadow: 8px 5px 7px #C84242;
+	padding: 1%;
+	background:black
+
+}
+.titulos li{
+	font-size: 25px;
+}
+{
+	font-style: italic;
+}*/
+.botones{
+	text-align: center;
+	border-bottom: 6px solid red;
+    background-color: lightgrey;
+	font-size: 20px;
+	color:#F0C4C4;
+}
+.botones li{
+	display: inline;/*Para ponerlos en forma horizontal*/	
+}
+.botones a{
+	color:black;
+	font-size:22px;
+	margin:5%;/*Espacios entre los elementos*/
+	background-color: #ECBEE7;
+	display: inline-block;/*quita espacio */
+	padding:1.02%;
+	text-decoration:none;
+	text-align: center;
+	width: 150px;
+	border-radius: 20px;/*curva de los botones*/
+}
+.botones li:hover a{
+	background: silver;
+}
+.bio{
+	background: pink;
+	text-align: center;
+}
+.bio h2{
+	font-size: 50px;
+}
+.bio li{
+	font-size: 40px;
+}
+li.b1 a{
+background:#C84242 ;
+}
+ul{
+	list-style: none;/*Quitarlos puntos de la lista*/
+}
+.fot li{
+	display:inline;
+	text-decoration: none;
+	
+	text-align: center;
+	width: 25px;
+	margin:7%;
+
+}
+.fot a{
+	background: #DEB2B2;
+	color:black;
+	display: inline-block;
+	width: 70px;
+	text-decoration: none;
+	padding: 1%;
+}
+.biografia{
+	text-align: center;
+	font-size: 30px;
+	color:black;
+}
+.crea{
+	text-align: center;
+	font-size: 50px;
+	color:black;
+}
+.filmo{
+	text-align: center;
+	font-size: 50px;
+	color:black;
+}
